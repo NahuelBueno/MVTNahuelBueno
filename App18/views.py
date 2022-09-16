@@ -18,5 +18,4 @@ def familia(self):
     diccionario = "nombre", {flia1.nombre}, "edad", {flia1.edad}, "años",  "dni:", {flia1.dni}, "El segundo integrante de mi familia", {flia2.nombre}, "edad", {flia2.edad}, "años"   "dni:", {flia2.dni}, "El tercer integrante de mi familia ",{flia3.nombre}, "edad", {flia3.edad}, "años"  "dni:", {flia3.dni}
     
     plantilla=loader.get_template("plantilla.html")
-    documento = plantilla(diccionario)
-    return HttpResponse(documento)
+    return HttpResponse(diccionario)
