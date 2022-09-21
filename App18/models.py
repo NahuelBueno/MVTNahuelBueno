@@ -4,6 +4,6 @@ from django.db import models
 
 class Familia(models.Model):
 
-    nombre=models.CharField(max_length=60)
-    edad=models.IntegerField ()
-    dni=models.IntegerField ()
+    nombre=models.CharField(max_length=80)
+    edad=models.IntegerField()
+    dni=models.IntegerField()
